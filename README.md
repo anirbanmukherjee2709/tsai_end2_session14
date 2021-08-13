@@ -2,11 +2,14 @@
 
 # Session 14
 
-- [What is BERT?](#what-is-bert-?)
+ [What is BERT?](#what-is-bert-?)
 
-BERT (Bidirectional Encoder Representations from Transformers) is a recent paper published by researchers at Google AI Language. BERT is designed to help computers understand the meaning of ambiguous language in text by using surrounding text to establish context. The BERT framework was pre-trained using text from Wikipedia and can be fine-tuned with question and answer datasets.
+BERT (Bidirectional Encoder Representations from Transformers) is a recent paper published by researchers at Google AI Language. BERT is designed to help computers understand the meaning of ambiguous language in text by using surrounding text to establish context. The BERT framework was pre-trained using text from Wikipedia and can be fine-tuned with question and answer datasets. BERT makes use of Transformer, an attention mechanism that learns contextual relations between words (or sub-words) in a text. As opposed to directional models, which read the text input sequentially (left-to-right or right-to-left), the Transformer encoder reads the entire sequence of words at once. Therefore it is considered bidirectional, though it would be more accurate to say that it’s non-directional.
 
-![](bert_pic)
+
+
+
+![](bert_pic.png)
 
 
 - Train & Valid Loss
@@ -92,7 +95,7 @@ Total training time 0:06:03 (h:mm:ss)
 ```
 
 
-- [Team](#team)
+[Team](#team)
 - Debasish Sarangi
 - Anirban Mukherjee
 - Smruthi 
